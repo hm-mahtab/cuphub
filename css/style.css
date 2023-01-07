@@ -1,0 +1,50 @@
+/* impoet google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+
+}
+/* start header */
+
+header{
+    height: 80vh;
+    background: url(/image/Header/header-bg.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    height: 1.5rem;
+}
+.nav-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 1.5rem;
+    font-weight: 500;
+}
+.nav-link:hover{
+    background-color: #ffc61a;
+}
+/* header info */
+.header-info{
+    text-align: center;
+    margin-top: 6%;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.header-info h3{
+    color: #ffc61a;
+    font-weight: 800;
+}
+.header-info h1{
+    font-size: 55px;
+    font-weight: 800;
+}
+.header-info p{
+    font-size: 12px;
+    letter-spacing: 14px;
+}
+/* end header */
