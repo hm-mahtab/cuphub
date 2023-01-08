@@ -55,9 +55,63 @@ header{
 
 /* start booking */
 #booking{
-    height: 60vh;
+    height: 70vh;
     background-color: #ffc61a;
     margin-top: -110px;
+    
+}
+.bookingbox{
+    padding-top: 150px;
+}
+
+.booking-dtls{
+    
+}
+
+.booking-dtls h3{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.booking-dtls p{
+    width: 90%;
+    text-align: justify;
+}
+.booking-dtls a{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.booking-dtls h2{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.bookAcap{
+    background-color: #fff;
+    text-align: left;
+}
+.bookAcap h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 8px 0px 8px 12px;
+    background-color: #171717;
+    color: #fff;
+}
+.bookAcap h2 span{
+    color: #ffc61a;
+}
+.inputBox{
+    outline: none;
+    border: none ;
+    background: none;
+    margin: 3px 0px 3px 5px;
+    /* background-color: #ffc61a; */
+    padding: 5px 3px;
+    border-bottom: 1px solid #171717;
+    width: 95%;
+}
+.submitbtn{
+    display: inline;
 }
 /* end booking */
 
